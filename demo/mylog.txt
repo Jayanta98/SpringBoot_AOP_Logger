@@ -1,0 +1,26 @@
+2021-09-23 20:57:15.751  INFO 16212 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 1.8.0_261 on LAPTOP-DU3M7H5R with PID 16212 (C:\Users\JAYANTA GHOSH\Desktop\myLoggerApp\demo\target\classes started by JAYANTA GHOSH in C:\Users\JAYANTA GHOSH\Desktop\myLoggerApp\demo)
+2021-09-23 20:57:15.755  INFO 16212 --- [main] com.example.demo.DemoApplication         : The following profiles are active: dev
+2021-09-23 20:57:16.981  INFO 16212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9596 (http)
+2021-09-23 20:57:16.992  INFO 16212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-23 20:57:16.993  INFO 16212 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-09-23 20:57:17.105  INFO 16212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-23 20:57:17.107  INFO 16212 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1295 ms
+2021-09-23 20:57:17.639  WARN 16212 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9596 is already in use
+2021-09-23 20:57:17.643  INFO 16212 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-23 20:57:17.655  INFO 16212 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-23 20:57:17.673 ERROR 16212 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9596 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9596 or configure this application to listen on another port.
+
